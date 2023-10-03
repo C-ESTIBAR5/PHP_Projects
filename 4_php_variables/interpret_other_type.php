@@ -15,6 +15,14 @@
     $false_num = 999 - 999;
     $false_str = " ";
 
+    echo "$true_num<br>";
+    echo "$true_str<br>";
+    echo "$true_array<br>";
+    echo "$false_array<br>";
+    echo "$false_null<br>";
+    echo "$false_num<br>";
+    echo "$false_str<br>";
+
     #null
     $_my_var = null;
     ?>

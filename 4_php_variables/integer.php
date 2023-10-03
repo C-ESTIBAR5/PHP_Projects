@@ -13,7 +13,7 @@
 
        echo "First = $int_var";
        echo "<br>";
-       print "Second = $another_int";
+       print "Second = $another_int<br>";
        
     ?>
 </body>
