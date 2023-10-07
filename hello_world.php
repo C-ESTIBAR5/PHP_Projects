@@ -7,14 +7,13 @@
 </head>
 <body>
     <?php
-        $jon = "<b>JON</b>: Im a bastard of Winterfell";
-        
-        $tyrion = "<b>TYRION</b>: Never forget who you are, Wear it like armor,
-          and they can never use it against you";
-          
-          print "$jon<br>" ;  
-          print "$tyrion<br>" ;
+            $var_1 = 6 ;        
+            $var_2 = 5 ;
 
+            $sum = $var_1 + $var_2;
+            print($sum)
+
+            
 
     
 ?>
