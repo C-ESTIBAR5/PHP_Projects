@@ -1,0 +1,43 @@
+body {
+    background-color: #FFDADA;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #FF6666;
+    padding: 20px;
+    text-align: center; 
+    margin: 50px;
+}
+
+.choices {
+    margin: 20px auto; /* Center the choices div horizontally using 'auto' for left and right margins */
+    text-align: center; /* Center the buttons within the container */
+    width: 50%; /* Set a width for the choices div */
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    align-items: center;
+    justify-content: center;
+    background-color: #CC3333;
+    color: #FFF;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%; /* Set the button width to 100% for full width within the choices div */
+}
+
+.button:hover {
+    background-color: #FF6666;
+}
